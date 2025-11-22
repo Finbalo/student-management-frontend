@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+body {
+  background: #f5f5f5;
+  color: #333;
+  line-height: 1.6;
+}
+
+.page-card {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-top: 20px;
+}
+
+h1 {
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 12px 15px;
+  text-align: left;
+}
+th {
+  background: #f2f2f2;
+}
+tr:nth-child(even) {
+  background: #f9f9f9;
+}
+tr:hover {
+  background: #f1f1f1;
+}
+
+.btn {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.3s;
+}
+.btn-primary {
+  background: #3498db;
+  color: white;
+}
+.btn-success {
+  background: #2ecc71;
+  color: white;
+}
+.btn-warning {
+  background: #f39c12;
+  color: white;
+}
+.btn-danger {
+  background: #e74c3c;
+  color: white;
+}
+.btn-primary:hover {
+  background: #2980b9;
+}
+.btn-success:hover {
+  background: #27ae60;
+}
+.btn-warning:hover {
+  background: #d35400;
+}
+.btn-danger:hover {
+  background: #c0392b;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+input,
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.actions,
+.action-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.student-details {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+}
+.detail-row {
+  display: flex;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+.detail-label {
+  font-weight: bold;
+  width: 150px;
+}
+.detail-value {
+  flex: 1;
+}
+
+.no-data {
+  text-align: center;
+  padding: 20px;
+  color: #777;
+}
+
+@media (max-width: 768px) {
+  table {
+    display: block;
+    overflow-x: auto;
+  }
+  .nav-links {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
