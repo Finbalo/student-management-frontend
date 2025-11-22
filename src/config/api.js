@@ -4,7 +4,7 @@ const config = {
     apiBaseURL: 'http://localhost:3000/api',
   },
   production: {
-    apiBaseURL: 'https://student-management-backend-7izx.onrender.com',
+    apiBaseURL: 'https://student-management-backend-7izx.onrender.com/api',
   },
 }
 
